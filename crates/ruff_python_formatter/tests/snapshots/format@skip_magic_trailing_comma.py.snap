@@ -192,7 +192,9 @@ def f(a):
     pass
 
 
-def g(a):
+def g(
+    a,
+):
     pass
 
 

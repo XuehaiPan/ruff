@@ -1656,12 +1656,18 @@ result = func(
 
 
 # Over-wrapped with trailing comma
-def foo(a, b):
+def foo(
+    a,
+    b,
+):
     pass
 
 
 # Single-line trailing comma
-def baz(a, b):
+def baz(
+    a,
+    b,
+):
     pass
 
 
